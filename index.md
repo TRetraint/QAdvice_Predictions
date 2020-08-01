@@ -5,14 +5,12 @@ The subject of my internship in the quality department of Thales was to predict 
 
 A QAdvice is made up of 14 topics covering different aspects of a project, from customer relations to respecting the schedule... These different points are evaluated by the quality engineer according to this scale:
 
+
 <p align="center">
   <img src="image/bareme.png"/>
+  <i>Figure 1. KMA scores scale</i>
 </p>
 
-### Jekyll Themes
+### Jekyll Theme
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bugato/QAdvice_Predictions/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
