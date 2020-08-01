@@ -6,7 +6,7 @@ The subject of my internship in the quality department of Thales was to predict 
 A QAdvice is made up of 14 topics covering different aspects of a project, from customer relations to respecting the schedule... These different points are evaluated by the quality engineer according to this scale:
 
 <p align="center">
-  <img src="https://github.com/Bugato/QAdvice_Predictions/blob/gh-pages/image/bareme.png"/>
+  <img src="image/bareme.png"/>
 </p>
 
 ### Jekyll Themes
