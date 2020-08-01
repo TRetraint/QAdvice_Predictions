@@ -1,7 +1,5 @@
-## test1
-You can use the [editor on GitHub](https://github.com/Bugato/QAdvice_Predictions/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Introduction
+The subject of my internship in the quality department of Thales was to predict the arrival of potential future problems that could arise within the different projects carried out by the different entities of the company. The projects are monitored by different quality engineers who regularly write a quality report evaluating different aspects of the project's progress and therefore highlighting any problems encountered. These reports, which are called Quality Advices, are therefore the data that I processed.
 
 ### Test2
 
