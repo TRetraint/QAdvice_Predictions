@@ -22,6 +22,13 @@ These different points are called Key Maturity Area (KMA) and therefore compose.
   <i>Figure 2. Presentation of a QAdvice</i>
 </p>
 
-### Jekyll Theme
+ The objective of this project is therefore to try to predict the value of the next KMA scores of the future QAdvice. Thus it will be possible to predict potential problems on some specific points.
+ 
+### The Data
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bugato/QAdvice_Predictions/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The starting data was simply a .csv file containing more than 2 years of QAdvice from more than 100 projects. It contained the KMA score evaluations, comments and descriptions of the projects in question.
+However, the raw data is not directly usable to train a learning machine model. It was therefore necessary to do some pre-processing work. So I decided to transform the date into several columns: the date of the day, the day of the week, the season, the month ...
+But with these simple modifications, the first results of the first models were not very satisfactory (about 60% of precisions), so I added metrics allowing the different models to better apprehend the data set. That's why I added statistics on the previous KMA scores of the previous QAdvices.
+Another variables that were not exploited were the comments of the KMA scores. For their value data I decided to use a sentiment analyzer from an NLP library(NLTK). Thus, each comment is rated by a score from 1 to 4 transcribing the positivity or negativity of the comment left by the quality engineer. This makes it possible to correlate the KMA score with the engineer's opinion.
+
+
