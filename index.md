@@ -8,6 +8,8 @@ A QAdvice is made up of 14 topics covering different aspects of a project, from 
 
 <p align="center">
   <img src="image/bareme.png"/>
+</p>
+<p align="center">
   <i>Figure 1. KMA scores scale</i>
 </p>
 
