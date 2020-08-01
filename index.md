@@ -32,5 +32,19 @@ However, the raw data is not directly usable to train a learning machine model. 
 But with these simple modifications, the first results of the first models were not very satisfactory (about 60% of precisions), so I added metrics allowing the different models to better apprehend the data set. That's why I added statistics on the previous KMA scores of the previous QAdvices.
 Another variables that were not exploited were the comments of the KMA scores. For their value data I decided to use a sentiment analyzer from an NLP library(NLTK). Thus, each comment is rated by a score from 1 to 4 transcribing the positivity or negativity of the comment left by the quality engineer. This makes it possible to correlate the KMA score with the engineer's opinion.
 
+Once the data was processed, I was able to train the first relevant models. Here are the results obtained:<br/>
+<p align="center">
+  <img src="image/resultsML.png"/>
+</p>
+<p align="center">
+  <i>Figure 3. Details of different models of Machine Learning</i>
+</p><br/>
+The best performing model here is the random forest with almost 88% accuracy. The following are the most important variables in the decisions made by the model:
+<p align="center">
+  <img src="image/variables.png"/>
+</p>
+<p align="center">
+  <i>Figure 4. Variables determining model predictions</i>
+</p><br/>
 
-
+### Random Forest
