@@ -68,3 +68,17 @@ The advantage of Random Forest's algorithm over other models is that it leads to
   <i>Figure 6. KMA scores distribution</i>
 </p>
 
+The model is also not subject to the problem of "overfitting" which is a phenomenon often found in machine learning models. Overfitting is the fact that the model performs very well on learning and test data, but once subjected to real data, it is less efficient. Only, the random forest program suffers from a "black box" effect because the mechanisms leading to the prediction made are not obvious to identify. There is, however, a way of knowing which variables have the most weight in the model's decision making thanks to Gini index calculations. <br/>
+
+### Improvements
+
+I've developed a predictive model that's 88% correct. But, still, 12% of the predictions are wrong. So we're going to look at the predictions themselves and therefore understand how our model works. Here is the confusion matrix of the current model:<br/>
+<p align="center">
+  <img src="image/confusion_matrix_1st.png"/>
+</p>
+<p align="center">
+  <i>Figure 7. Confusion matrix of the current model</i>
+</p>
+
+
+
