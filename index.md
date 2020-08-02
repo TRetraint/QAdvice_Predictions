@@ -48,3 +48,23 @@ The best performing model here is the random forest with almost 88% accuracy. Th
 </p><br/>
 
 ### Random Forest
+We noticed earlier that the best performing learning machine model on our dataset was the Random Forest algorithm. So we will see in this section how it works and why it is so efficient with the Thales data analyzed.
+
+The algorithm underlying this model is quite recent and dates from 2001. The algorithm, as its name suggests, is based on the creation of multiple decision trees forming a forest. The randomness depends on the way each tree is created. To form these trees, the model randomly takes samples of data. For each tree, a bootstrat sample of individuals is selected, so that the construction of a tree node is based on a subset of randomly drawn variables.<br/>
+
+<p align="center">
+  <img src="image/rf.png"/>
+</p>
+<p align="center">
+  <i>Figure 5. How the Random Forest algorithm works</i>
+</p>
+Once the trees are created, the model can make predictions by passing new information as arguments in each tree. Each tree then submits a prediction. All tree responses are then retrieved and the most frequent value is chosen as the final prediction.
+
+The advantage of Random Forest's algorithm over other models is that it leads to great precision with great disparities in the proportions of classes to predict, which is the case in our data set :<br/>
+<p align="center">
+  <img src="image/KMA_dist.png"/>
+</p>
+<p align="center">
+  <i>Figure 6. KMA scores distribution</i>
+</p>
+
