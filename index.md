@@ -89,7 +89,7 @@ It is noticeable that the model is similarly wrong one way or the other. The sen
 
 Here are the results on the accuracy of the model as well as its confusion matrix: <br/>
 <p align="center">
-  <img src="image/confusion_matrix_2nd.png.png"/>
+  <img src="image/confusion_matrix_2nd.png"/>
 </p>
 <p align="center">
   <i>Figure 8. Confusion matrix of the new model</i>
