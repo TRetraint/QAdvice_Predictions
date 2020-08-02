@@ -98,3 +98,5 @@ Here are the results on the accuracy of the model as well as its confusion matri
 Here we can see that the accuracy is degraded by about 3%. However, the predictions made are now more pessimistic. This can be seen on the confusion matrix where errors on the upper part are less frequent. They are however more frequent on the lower part. 
 
 ### Conclusion
+
+So I developed a relatively accurate model to predict the KMA score of the next QAdvice. Now I just need to integrate it into an application to make it usable by engineers. You can also find the details of the application in the project tab of my website. You may have noticed that there is no code in this repository. Indeed, my internship was in a sensitive department and the code does not belong to me directly but to Thales. So I can't share with you the code of this development.
