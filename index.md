@@ -82,4 +82,4 @@ I've developed a predictive model that's 88% correct. But, still, 12% of the pre
 
 
 
-<title>Introduction | QAdvice Predictions</title>
+<title>QAdvice Predictions</title>
