@@ -80,6 +80,17 @@ I've developed a predictive model that's 88% correct. But, still, 12% of the pre
   <i>Figure 7. Confusion matrix of the current model</i>
 </p>
 
+In case the prediction is bad, it will be able to warn the quality engineer of this problem in order to either bring it up or at best prevent it. When a prediction is wrong, we can distinguish 2 cases:
+- The prediction is pessimistic compared to the reality, making it sound a false alarm.
+- The prediction is optimistic and a problem that may exist is not then detected.
+In one case, the model is wrong, having for only consequence to alarm for nothing the engineer. In the other case, the problem is not detected, worse, it is masked by an overly optimistic prediction. We will therefore try to reduce this occurrence as much as possible. To do this, I have tried to create a pessimistic model.
 
+It is noticeable that the model is similarly wrong one way or the other. The sensitivity of the model must therefore be increased in the negative direction. To do this we will use a method called "upsampling" which is to readjust the proportions of the classes in our dataset. We will then artificially increase the number of critical, risky and monitored KMA evaluations so that they have more weight in the decision making of its classes.
 
-<title>QAdvice Predictions</title>
+Here are the results on the accuracy of the model as well as its confusion matrix: <br/>
+<p align="center">
+  <img src="image/confusion_matrix_2nd.png.png"/>
+</p>
+<p align="center">
+  <i>Figure 8. Confusion matrix of the new model</i>
+</p>
