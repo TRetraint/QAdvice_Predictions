@@ -94,3 +94,7 @@ Here are the results on the accuracy of the model as well as its confusion matri
 <p align="center">
   <i>Figure 8. Confusion matrix of the new model</i>
 </p>
+
+Here we can see that the accuracy is degraded by about 3%. However, the predictions made are now more pessimistic. This can be seen on the confusion matrix where errors on the upper part are less frequent. They are however more frequent on the lower part. 
+
+### Conclusion
